@@ -43,7 +43,7 @@
             android:layout_marginLeft="13dp"
             android:layout_marginTop="182dp"
             android:text="One specific number lies between 1 to 100. You have 5 trials to get the number. Can you guess what it  is ?"
-            android:textColor="#3F51B5"
+            android:textColor="#29323c"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -60,7 +60,7 @@
             android:layout_marginRight="26dp"
             android:ems="10"
             android:gravity="center"
-            android:hint="ENTER"
+            android:hint="YOUR GUESS"
             android:inputType="numberDecimal" />
 
         <Button
@@ -70,11 +70,11 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="139dp"
-            android:layout_marginRight="139dp"
-            android:layout_marginBottom="254dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginRight="86dp"
+            android:layout_marginBottom="250dp"
             android:onClick="clickFunction"
-            android:text="GUESS"
+            android:text="ARE YOU SURE?"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

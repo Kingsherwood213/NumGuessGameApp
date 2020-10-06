@@ -20,28 +20,21 @@ public class MainActivity extends AppCompatActivity {
     {
         Toast.makeText(MainActivity.this, string, Toast.LENGTH_SHORT).show();
     }
+    //EditText allows for the user to guess the number
     public void clickFunction(View v)
     {
         int number;
-        EditText variable
-                = (EditText)findViewById(
-                R.id.editId);
-        number
-                = Integer.parseInt(
-                variable
-                        .getText()
-                        .toString());
+        EditText variable = (EditText)findViewById(R.id.editId);
+        number= Integer.parseInt(variable.getText().toString());
         if (number < result) {
-
-            makeToast(" Think of Higher Number");
+            makeToast(" Higher Number ");
         }
         else if (number > result) {
-            makeToast(" Think of Lower Number");
+            makeToast(" Lower Number ");
         }
         else {
             makeToast(
-                    "Congratulations,"
-                            +" You Got the Number");
+                    " You Got the Number ");
         }
 
     }
